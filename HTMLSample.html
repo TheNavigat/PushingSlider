@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>HTML Pushing Slider Sample</title>
+
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="default.css" type="text/css" media="screen" />
+
+<script type="text/javascript" src="jquery.nivo.slider.js"></script>
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript">
+    $(window).load(function() { $('#slider').UCSlider(); });
+</script>
+
+</head>
+
+<body>
+
+	<div class="Container" >
+		
+		<div id="sliderCSS">
+            <div class="slider-wrapper theme-default">
+		        <div id="slider" class="nivoSlider" onmouseover="pauseTimer()" onmouseout="continueTimer()">
+			<a href="#"><img src="images/slider1.png" data-thumb="images/slider1.png" alt="CodeZilla" /></a>
+	                <a href="#"><img src="images/slider2.png" data-thumb="images/slider2.jpg" alt="New Website Design" /></a>
+            	</div>
+        	</div>
+		</div>
+</body>
+</html>

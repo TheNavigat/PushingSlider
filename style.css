@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color: #E6E6E6;
+}
+
+#sliderCSS {
+	width: 898px;
+	border-color:#636363;
+	border-radius: 5px; 
+	margin-left: auto;
+	margin-right: auto;
+	height:390px;
+	margin-top: -40px;
+	border-left:1px solid #d1d1d1;
+	border-right:1px solid #d1d1d1;
+}
+
+.slider-wrapper {
+	position: inherit; 
+	width: 898px;
+	height: 100%
+}
+
+#slider {
+	height: 100%;
+}
+
+#slider img { display: none; }
